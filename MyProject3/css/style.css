@@ -1,0 +1,247 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 960px;
+	background-color: #f2f0f0;
+	margin: 0 auto; 
+}
+
+/* ~~ The header ~~ */
+
+header {
+	background-color: #f2f0f0;
+	height: 150px;
+	border-bottom-style: groove;
+}
+.container header #logo {
+	width: 182px;
+	height: 110px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 40px;
+	float: left;
+}
+
+
+.container header #pageNav {
+	float: right;
+	height: 60px;
+	width: 700px;
+	background-color: rgba(242,240,240,0.4);
+	font-weight: bold;
+	margin-top: 35px;
+}
+
+.container header #pageNav ul {
+	list-style: none;
+}
+.container header #pageNav ul li {
+	float: left;
+	margin-right: 30px;
+	margin-left: 0px;
+	text-align: center;
+}
+.container header #pageNav ul li a {
+	color: #79302b;
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 1.2em;
+	text-transform:uppercase;
+}
+
+.container header #pageNav ul li a:hover {
+	color: rgb(251,174,44);
+	background: none;
+}
+
+
+/* ~~ The MainArea ~~ */
+.container #main {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/* ~~ The MainArea ~~ */
+.container #main h3{
+	color: #79302b;
+
+}
+/* ~~ The MainArea ~~ */
+.container #main h4{
+	color: #79302b;
+	line-height: 0%;
+
+}
+.container #main #content {
+	float: left;
+	position: relative;
+	width: 535px;
+	padding-left: 30px;
+}
+.container #main #content h3 a{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left: 18px;
+	padding-right: 18px;
+	background-color: #5FA022;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: 4px solid #79302b;
+	;
+}
+.container #main #content h3 a:hover{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left: 18px;
+	padding-right: 18px;
+	background-color: #79302b;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: 4px solid #5FA022;
+}
+
+.container #main #sidebar0 {
+	float: right;
+	width: 290px;
+	padding-left: 10px;
+	margin-top: 30px;
+
+}
+.container #main #sidebar {
+	float: right;
+	width: 280px;
+	padding-left: 10px;
+	margin-top: 70px;
+
+}
+
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 10px 0;
+	background-color: #5fa022;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	height: 100px;
+}
+
+footer h1{
+	font-family: "Century Gothic", Century;
+	font-size: 14px;
+	font-weight: bold;
+	color: #79302b;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+footer p{
+	margin: 0px;
+	font-size: 14px;
+}
+a.footer:link {
+	color: #313030;
+	text-decoration: none;
+	font-weight: normal;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+a.footer:visited {
+	color: #313030;
+	text-decoration: none;
+	font-weight: normal;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+a.footer:hover {
+	color: rgb(251, 174, 44);
+	font-weight: normal;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.container footer #footnav {
+	position: relative;
+	float: left;
+	padding-left: 50px;
+	width: 200px;
+	padding-top: 2px;
+}
+.container footer #contact {
+	float: left;
+	margin-left: 35px;
+	padding-left: 30px;
+	padding-top: 2px;
+	width: 320px;
+}
+
+.container footer .connect {
+	width: 230px;
+	text-align: center;
+	float: right;
+	padding-top: 2px;
+	padding-right: 60px;
+}
+.connect ul {
+	list-style: none;
+}
+div.connect li {
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 16px;
+	margin-left: 0;
+	margin-top: 0px;
+	text-align: left;
+}
+.connect li a{
+	display: block;
+	width: 45px;
+	height: 45px;
+	text-indent: -999em;
+	background: url(../images/social_sprite.png) no-repeat;
+}
+
+.connect li:last-child  {
+	margin-right: 0;
+}
+.connect a.twitter {
+	background-position: left top;
+}
+.connect a.twitter:hover {
+	background-position: left bottom;
+}
+.connect a.google {
+	background-position: -45px 0;
+}
+.connect a.google:hover {
+	background-position: -45px -45px;
+}
+.connect a.facebook {
+	background-position: -90px 0;
+}
+.connect a.facebook:hover {
+	background-position: -90px -45px;
+}
+.connect a.linked {
+	background-position: right top;
+}
+.connect a.linked:hover {
+	background-position: right bottom;
+}

@@ -1,0 +1,167 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 960px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	position: relative;
+}
+
+header {
+	background-color: #ADB96E;
+}
+
+.pageHeader {
+	height:190px;
+	background: url(../images/headerimage.jpg) no-repeat;
+}
+
+.pageHeader nav {
+	height: 60px;
+	width: 960px;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	background-color: rgba(78,78,78,0.4);
+	font-weight: bold;
+}
+.pageHeader ul {
+	list-style: none;
+	margin-left: 72px;
+}
+.pageHeader li {
+	float: left;
+	margin-right: 64px;
+}
+
+.pageHeader a {
+	color: white;
+	text-decoration: none;
+	line-height: 25px;
+	font-size: .9em;
+	text-transform: lowercase;
+}
+.pageHeader a:hover {
+	color: rgb(251, 174, 44);
+	background: none;
+}
+p.pageSubject {
+	margin-top: 0px;
+	margin-left: 20px;
+	font-size: xx-large;
+	color: #333333;
+	font-style: normal;
+	font-weight: 400;
+	font-family: leckerli-one;
+	text-shadow: 2px 1px #FFFFFF;
+	padding-top: 60px;
+}
+
+.content {
+	width: 860px;
+	float: none;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	left: 5%;
+	right: 5%;
+}
+img#homearticleimg {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	float: right;
+	background-color: #CCC;
+	margin-left: 1em;
+	margin-bottom: 6px;
+}
+
+
+footer {
+	padding: 10px 0;
+	background-color: rgba(78,78,78,0.6);
+	position: relative;
+	font-size: small;
+	text-align: center;
+}
+
+
+section.parts {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.more {
+	font-weight: bold;
+	text-align: right;
+	color: rgb(2, 99, 174);
+	text-decoration: none;
+}
+.more a:hover {
+	color: rgb(251, 174, 44);
+}
+#atractiontb a:hover {
+	color: rgb(251, 174, 44);
+}
+#atractiontb {
+	color: rgb(2, 99, 174);
+}
+img#huashan {
+	float: right;
+
+
+}
+img#wall {
+	float: right;
+}
+img#bmy {
+	float: left;
+	margin-right: 1.5em;
+	margin-bottom: 0.2em;
+}
+img#pagoda {
+	float: left;
+	margin-right: 1.5em;
+	margin-bottom: 0.5em;
+
+}
+img#tower {
+	float: left;
+	margin-right: 1.5em;
+	margin-bottom: 0.5em;
+}
+img#food {
+	float: right;
+	margin-left: 1.5em;
+}
+.container .content .parts #weather {
+	width: 550px;
+}
+.container .content .parts #awcc {
+	float: right;
+	width: 200px;
+}
+.container .content .parts iframe {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.container .content .parts #city {
+	float: right;
+}
